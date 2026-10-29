@@ -1,0 +1,9 @@
+# RetinaAI backend - Python 3.10 to 3.13
+tensorflow==2.20.0
+keras>=3.13.2          # the model was saved with Keras 3.13.2 (TensorFlow 2.20 accepts any Keras >= 3.10)
+numpy==2.1.3
+opencv-python-headless==4.10.0.84
+pillow>=11.0.0
+fastapi==0.115.0
+uvicorn==0.30.6
+python-multipart==0.0.9

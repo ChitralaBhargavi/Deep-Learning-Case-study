@@ -1,0 +1,43 @@
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+dist/
+coverage/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Datasets and generated outputs
+datasets/
+dataset/
+data/
+uploads/
+reports/
+
+# Model checkpoints and large model files
+*.h5
+*.keras
+*.weights
+*.pt
+*.pth
+
+# Python cache
+.mypy_cache/
